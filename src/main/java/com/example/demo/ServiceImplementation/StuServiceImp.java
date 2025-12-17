@@ -7,5 +7,8 @@ import com.example.demo.service.Stuservice;
 
 @service
 public class StuServiceImp implements Stuservice{
-    private final Student
+    private final StudentRepository StudentRepository;
+    public StuServiceImp(StudentRepository StudentRepository){
+        this.StudentRepository
+    }
 }
